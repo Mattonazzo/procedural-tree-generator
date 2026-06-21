@@ -193,8 +193,9 @@ def main():
     
     # Display generation time
     t.penup()
-    t.goto(600, 270)
-    t.write(f"Seconds\n{duration:.4f}", align="center", font=("Arial", 26, "normal"))
+    t.goto(450, 150)
+    t.color("dark green")
+    t.write(f"Seconds\n{duration:.4f}", align="center", font=("Arial", 68, "normal"))
     
     my_win.exitonclick()
 
